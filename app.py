@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 # Your tokens (replace with actual values)
 VERIFY_TOKEN = "my_secret_token_123"  # Choose any secret string
-PAGE_ACCESS_TOKEN = "your_page_access_token"  # Get this from Facebook Developer Console
+PAGE_ACCESS_TOKEN = "EAAIZC7vVAuAwBO69ucAVEGFZCNIURTLu2wppzajpwXoZC7yZCnywnYLJtGe0GGBfS97aQT6T8PEgZCxeiVrtrqIh7uI7pf6zjINyoS1SQyAGjOZAE7vpZCjq6AhPqRrpkZAqPEJ1Wp8pDcCh958njP4ieDzWUYkET15hAjomFBVZBHl6hGTVKVZC4JASdURcoxwAZDZD"  # Get this from Facebook Developer Console
 
 @app.route("/", methods=["GET"])
 def home():
